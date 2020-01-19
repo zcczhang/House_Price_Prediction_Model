@@ -8,4 +8,4 @@
 
 <br>
 
-[version 1:]() Simple Prediction(with ridge regression, random forest, bagging): score: 0.12291; rank: top 20%
+[version 1:]() Simple Prediction(with ridge regression, random forest, bagging): score: 0.12291; rank: top 20%   [view pdf](https://zcczhang.github.io/files/House_Price_Prediction_v1.pdf)
