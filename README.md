@@ -6,7 +6,7 @@
 
 <br>
 
-![](https://raw.githubusercontent.com/zcczhang/House_Price_Prediction_Model/master/output/rank1.png)
+![](https://raw.githubusercontent.com/zcczhang/House_Price_Prediction_Model/master/output/rank.png)
 
 <br>
 
