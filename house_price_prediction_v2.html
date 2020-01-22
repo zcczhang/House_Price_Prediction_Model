@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>A Detailed Regression Guide with House-pricing (1)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>house_price_prediction_v2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11785,7 +11785,7 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h1><p><img src="https://i.ytimg.com/vi/LvfbopVq-WE/maxresdefault.jpg" alt=""></p>
-<h4 id="This-is-my-second-version-House-Price-Prediction-Model-for-the-Kaggle-Competition.-In-this-version,-I-improve-methods-for-processing-missing-value-more-accurately,-use-Ridge,-LGBM,-XGB,-and-Stacking-CV-Regressor-to-build-machie-learning-models,-and-add-blended-models.-Since-some-contents-are-repeated,-I-will-just-breifly-describe-the-dataset-at-the-beginning.">This is my second version <strong><em>House Price Prediction</em></strong> Model for the Kaggle Competition. In this version, I improve methods for processing missing value more accurately, use Ridge, LGBM, XGB, and Stacking CV Regressor to build machie learning models, and add blended models. Since some contents are repeated, I will just breifly describe the dataset at the beginning.<a class="anchor-link" href="#This-is-my-second-version-House-Price-Prediction-Model-for-the-Kaggle-Competition.-In-this-version,-I-improve-methods-for-processing-missing-value-more-accurately,-use-Ridge,-LGBM,-XGB,-and-Stacking-CV-Regressor-to-build-machie-learning-models,-and-add-blended-models.-Since-some-contents-are-repeated,-I-will-just-breifly-describe-the-dataset-at-the-beginning.">&#182;</a></h4>
+<h4 id="This-is-my-second-version-House-Price-Prediction-Model-for-the-Kaggle-Competition.-In-this-version,-I-improve-methods-for-processing-missing-value-more-accurately,-use-Ridge,-Lasso,-LGBM,-XGB,-and-Stacking-CV-Regressor-to-build-machie-learning-models,-and-add-blended-models.-Since-some-contents-are-repeated,-I-will-just-breifly-describe-the-dataset-at-the-beginning.">This is my second version <strong><em>House Price Prediction</em></strong> Model for the Kaggle Competition. In this version, I improve methods for processing missing value more accurately, use Ridge, Lasso, LGBM, XGB, and Stacking CV Regressor to build machie learning models, and add blended models. Since some contents are repeated, I will just breifly describe the dataset at the beginning.<a class="anchor-link" href="#This-is-my-second-version-House-Price-Prediction-Model-for-the-Kaggle-Competition.-In-this-version,-I-improve-methods-for-processing-missing-value-more-accurately,-use-Ridge,-Lasso,-LGBM,-XGB,-and-Stacking-CV-Regressor-to-build-machie-learning-models,-and-add-blended-models.-Since-some-contents-are-repeated,-I-will-just-breifly-describe-the-dataset-at-the-beginning.">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -13718,6 +13718,9 @@ dtype: float64</pre>
 <li><strong>Lasso</strong></li>
 <li><strong>Elastic Net</strong></li>
 </ul>
+<div>
+
+<h3 id="Ridge:">Ridge:<a class="anchor-link" href="#Ridge:">&#182;</a></h3><p>Ridge regression adds penalty equivalent to the square of the magnitude of the coefficients. This penalty is added to the least square loss function above and looks like this...</p>
 
 </div>
 </div>
