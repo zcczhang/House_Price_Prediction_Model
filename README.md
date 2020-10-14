@@ -1860,3 +1860,12 @@ submission['SalePrice'] = submission['SalePrice'].apply(lambda x: x if x > q1 el
 submission['SalePrice'] = submission['SalePrice'].apply(lambda x: x if x < q2 else x*1.1)
 submission.to_csv("submission.csv", index=False)
 ```
+
+### Reference
+Notebooks in kaggle:
+
+[House Prices: 1st Approach to Data Science Process](https://www.kaggle.com/cheesu/house-prices-1st-approach-to-data-science-process)
+
+[Stack&Blend LRs XGB LGB {House Prices K} v17](https://www.kaggle.com/itslek/stack-blend-lrs-xgb-lgb-house-prices-k-v17)
+
+[EDA, New Models and Stacking](https://www.kaggle.com/datafan07/top-1-approach-eda-new-models-and-stacking)
