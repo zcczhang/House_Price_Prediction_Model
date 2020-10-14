@@ -2,8 +2,8 @@
 
 [@CZ](zcczhang.github.io)
 
-This is the practice for machine learning and for Kaggle competition: [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
-Using Ridge, Lasso, LGBM, XGB, Stacking CV Regressor, and etc, to reach Score(mean absolute error): 11977.59807; ***13<sup>th</sup> place*** out of 19,465 teams***(0.06%)*** For more information.
+This is the first practice for machine learning and for Kaggle competition: [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
+Using Ridge, Lasso, LGBM, XGB, Stacking CV Regressor, and etc, to reach Score(mean absolute error): 11977.59807; ***13<sup>th</sup> place*** out of 19,465 teams ***(0.06%)*** For more information.
 
 
 <br>
